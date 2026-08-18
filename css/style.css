@@ -39,6 +39,12 @@ header {
     width: 100%;
     z-index: 1000;
     height: 90px;
+    top: 0;
+    transition: transform 0.3s ease-in-out;
+}
+
+header.header-hidden {
+    transform: translateY(-100%);
 }
 
 .nav-container {
