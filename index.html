@@ -13,6 +13,21 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
     <!-- Ícones FontAwesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        .contact-map-frame {
+            border: 0;
+            min-height: 400px;
+            width: 100%;
+            height: 100%;
+        }
+
+        .contact-map iframe {
+            border: 0;
+            min-height: 400px;
+            width: 100%;
+            height: 100%;
+        }
+    </style>
 </head>
 <body>
 
@@ -24,7 +39,7 @@
                 <img src="HC LOGO.png" alt="HC Equipamentos Logo" class="logo-img">
                 <div class="logo-text">
                     <span class="brand-hc">HC</span>
-                    <span class="brand-equip">EQUIPAMENTOS</span>
+                    <span class="brand-equip">LOCAÇÕES E EQUIPAMENTOS  </span>
                 </div>
             </div>
             <nav>
@@ -48,11 +63,12 @@
     <section id="home" class="hero">
         <div class="hero-overlay"></div>
         <div class="container hero-content">
-            <h2>Especialistas em <span class="text-red">Paleteiras</span> e <span class="text-red">Manutenção Preventiva</span></h2>
+            <h2>Sua operação não pode parar. <br><span class="text-red">A nossa missão é garantir isso.</span>  <span class="text-red"></span></h2>
             <p>A solução ideal para Centros Logísticos e Industriais. Garantimos a performance e durabilidade dos seus equipamentos com serviços de manutenção preventiva e locação de alta qualidade.</p>
             <div class="hero-badges">
                 <span class="badge"><i class="fa-solid fa-check-circle"></i> Autorizada Bovenau</span>
                 <span class="badge"><i class="fa-solid fa-check-circle"></i> Autorizada Marcon</span>
+                <span class="badge"><i class="fa-solid fa-check-circle"></i> Atendimento rápido</span>
             </div>
             <div class="cta-group">
                 <a href="#contato" class="btn-primary">Solicitar Orçamento</a>
@@ -194,7 +210,7 @@
                     <!-- Botão WhatsApp/Telefone -->
                     <div class="info-item-block">
                         <strong><i class="fa-brands fa-whatsapp"></i> Telefone / WhatsApp</strong>
-                        <a href="https://wa.me/5527997603859" target="_blank" class="btn-contact btn-whatsapp">
+                        <a href="https://wa.me/5527997603859" target="_blank" rel="noopener noreferrer" class="btn-contact btn-whatsapp">
                             (27) 99760-3859 <i class="fa-solid fa-arrow-up-right-from-square"></i>
                         </a>
                     </div>
@@ -202,28 +218,74 @@
                     <!-- Botão Email -->
                     <div class="info-item-block">
                         <strong><i class="fa-solid fa-envelope"></i> E-mail</strong>
-                        <a href="mailto:hc.vendas01@gmail.com" class="btn-contact btn-email">
-                            hc.vendas01@gmail.com <i class="fa-solid fa-arrow-right"></i>
+                        <a href="mailto:contato@hclocacoes.com" class="btn-contact btn-email">
+                            contato@hclocacoes.com <i class="fa-solid fa-arrow-right"></i>
                         </a>
                     </div>
 
                     <div class="info-item-block">
                         <strong><i class="fa-solid fa-location-dot"></i> Endereço</strong>
-                        <p style="color: rgba(255,255,255,0.8); margin-top: 5px;">R. Papagaio, 1675 - Novo Horizonte<br>Serra - ES, 29163-335</p>
+                        <p class="address-info">R. Flamingo, 333 - Novo Horizonte<br>Serra - ES, 29163-321</p>
                     </div>
                 </div>
 
                 <div class="contact-map">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3743.569676684667!2d-40.2306756!3d-20.1305484!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xb81e0c8b3e3d0b%3A0x5c5c5c5c5c5c5c5c!2sR.%20Papagaio%2C%201675%20-%20Novo%20Horizonte%2C%20Serra%20-%20ES!5e0!3m2!1spt-BR!2sbr!4v1620000000000!5m2!1spt-BR!2sbr" 
-                    width="100%" height="100%" style="border:0; min-height: 400px;" allowfullscreen="" loading="lazy"></iframe>
+                    <iframe title="Localização da HC Equipamentos - Serra ES" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d309.25093415909396!2d-40.25012588644508!3d-20.220781093484998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xb8192c98b711a3%3A0x3f006eda1b0924e9!2sHC%20EQUIPAMENTOS%20-%20Manuten%C3%A7%C3%A3o%20e%20Loca%C3%A7%C3%A3o%20de%20Paleteiras%20Manuais%20e%20El%C3%A9tricas%20.!5e1!3m2!1spt-BR!2sbr!4v1787063693954!5m2!1spt-BR!2sbr" 
+                    width="600" height="450" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
                 </div>
             </div>
         </div>
     </section>
 
     <footer>
-        <div class="container footer-content">
-            <p>&copy; 2025 HC Equipamentos. Todos os direitos reservados.</p>
+        <div class="container footer-grid">
+            <div class="footer-brand">
+                <div class="logo">
+                    <img src="HC LOGO.png" alt="HC Equipamentos Logo" class="logo-img">
+                    <div class="logo-text">
+                        <span class="brand-hc">HC</span>
+                        <span class="brand-equip">EQUIPAMENTOS</span>
+                    </div>
+                </div>
+                <p>Atendimento especializado em manutenção e locação de paleteiras para centros logísticos e indústrias.</p>
+            </div>
+
+            <div class="footer-col">
+                <h4>Menu</h4>
+                <ul>
+                    <li><a href="#home">Início</a></li>
+                    <li><a href="#aplicacoes">Aplicações</a></li>
+                    <li><a href="#servicos">Serviços</a></li>
+                    <li><a href="#sobre">A Empresa</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-col">
+                <h4>Serviços</h4>
+                <ul>
+                    <li>Paleteiras</li>
+                    <li>Macacos Hidráulicos</li>
+                    <li>Cilindros</li>
+                    <li>Prensas Hidráulicas</li>
+                    <li>Manutenção Industrial</li>
+                </ul>
+            </div>
+
+            <div class="footer-col">
+                <h4>Contato</h4>
+                <ul class="footer-contact">
+                    <li><i class="fa-solid fa-phone"></i> (27) 99760-3859</li>
+                    <li><i class="fa-solid fa-envelope"></i> contato@hclocacoes.com</li>
+                    <li><i class="fa-solid fa-location-dot"></i> Serra - ES</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <div class="container">
+                <p>&copy; 2025 HC Equipamentos. Todos os direitos reservados.</p>
+            </div>
         </div>
     </footer>
 
