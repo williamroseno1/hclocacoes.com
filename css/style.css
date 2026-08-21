@@ -57,7 +57,7 @@ header {
 }
 
 .logo-img {
-    height: 70px;
+    height: 80px;
     width: auto;
 }
 
@@ -73,10 +73,11 @@ header {
 .brand-hc {
     font-size: 1.5rem;
     color: #fff;
+    letter-spacing: 1px;
 }
 
 .brand-equip {
-    font-size: 0.95rem;
+    font-size: 1.5rem;
     color: var(--accent-red);
     letter-spacing: 1px;
 }
@@ -596,6 +597,15 @@ footer {
 
 .footer-brand .logo {
     margin-bottom: 0;
+    gap: 9px;
+}
+
+.footer-brand .logo-img {
+    height: 58px;
+}
+
+.footer-brand .logo-text .brand-hc {
+    font-size: 1.15rem;
 }
 
 .footer-brand p {
